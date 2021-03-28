@@ -38,7 +38,7 @@ class App extends React.Component {
         return isPending ? 
             <div className='tc'> <h1>Loading....</h1> </div> :
             (   <div className='tc'>
-                    <h1 className='f1'>Really!!! My Friends Are Robo</h1>
+                    <h1 className='f1'>Really!!! My Friends Are Robots</h1>
                     <SearchBox searchChange={onSearchChange} />
                     <Scroll>
                         <ErrorBoundary>
